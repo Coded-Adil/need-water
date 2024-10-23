@@ -13,7 +13,8 @@ const Bottle = ({ bottle, handleAddToCart }) => {
 };
 
 Bottle.propTypes = {
-    bottle: PropTypes.array.isRequired
+    bottle: PropTypes.object.isRequired,
+    handleAddToCart: PropTypes.func.isRequired
 }
 
 export default Bottle;
