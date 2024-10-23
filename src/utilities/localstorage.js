@@ -19,3 +19,4 @@ const addToLS = id => {
 }
 
 export {addToLS}
+export {getStoredCart}
